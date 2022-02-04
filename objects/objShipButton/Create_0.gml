@@ -1,0 +1,17 @@
+ship_type = global.args[0]
+planet = get_selected_planet()
+max_num = get_ship_num(planet, ship_type)
+sprite = get_building_sprite(ship_type, global.turn)
+num = 0
+ap_cost = num*get_ap(ship_type)
+dir = ""
+down_x1 = x-68
+down_y1 = y-15
+down_x2 = x-48
+down_y2 = y+15
+up_x1 = x+48
+up_y1 = y-15
+up_x2 = x+68
+up_y2 = y+15
+down_usable = false
+up_usable = false

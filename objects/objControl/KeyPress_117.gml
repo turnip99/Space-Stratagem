@@ -1,0 +1,1 @@
+game_load("strat_save_temp")
